@@ -1,0 +1,36 @@
+body{
+    background-color:khaki;
+}
+h1{
+    color:crimson;
+    font-family: 'Koh Santepheap', cursive;
+    font-size:40px;
+}
+p{
+    font-family: 'Varela Round', sans-serif;
+    color:darkgreen;
+}
+
+#show_sketch{
+    float:right;
+}
+
+canvas{
+    border:5px solid white;
+    border-radius:20px;
+    animation-name:example;
+    animation-duration:5s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+    margin-top:200px;
+}
+
+@keyframes example{
+    from {box-shadow:1px 1px 38px rgb(238, 5, 5);}
+    to {box-shadow:1px 1px 38px rgb(255, 239, 11);}
+}
+
+p{
+    padding-top:15px;
+    font-size:25px;
+}
